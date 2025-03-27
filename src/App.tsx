@@ -19,7 +19,7 @@ import AppLayout from "./layout/AppLayout";
 import { ScrollToTop } from "./components/common/ScrollToTop";
 import MainLogin from "./pages/AuthPages/MainLogin";
 import Home from "./pages/Dashboard/Home";
-
+import FlowDiagram from "./pages/Forms/FlowDiagram";
 export default function App() {
   return (
     <>
@@ -41,6 +41,7 @@ export default function App() {
 
             {/* Forms */}
             <Route path="/form-elements" element={<FormElements />} />
+            <Route path="/flow-diagram" element={<FlowDiagram />} />
 
             {/* Tables */}
             <Route path="/basic-tables" element={<BasicTables />} />
